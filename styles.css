@@ -381,3 +381,474 @@ footer #Endereço{
     flex-direction: row;
     justify-items: start;
 }
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    /* celulares */
+    header{
+        flex-direction: row;
+        max-height: 100vh;
+        height: 12vh;
+        width: 100%;
+        margin: auto;
+        justify-items: center;
+        align-items: start;
+    }
+
+    header article{
+        width: 50vw;
+        margin: auto;
+        align-items: center;
+        justify-items: center;
+        left: 0;
+    }
+
+    header img{
+        margin: auto;
+        height: 1%;
+        left: 0;
+    }
+
+    header ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr 1fr;
+        width: 55%;
+        height: 80%;
+        align-items: center;
+    }
+
+    header li{
+        font-size: 4.5vw;
+        text-align: justify;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: 0;
+        margin-right: 7vw;     
+    }
+
+    #Contato{
+        font-size: 4.5vw;
+    }
+
+    #Início{
+        display: block;
+        margin-top: 17vh;
+        height: 41.5vh;
+    }
+
+    #Início img{
+        display: none;
+    }
+
+    #Início h1{
+        max-width: 95%;
+        font-size: 6vw;
+    }
+    
+    #Início ul{
+        font-size: 5vw;
+    }
+
+    #Início button{
+        height: 10vw;
+        width: 30vw;
+        font-size: 3vw;
+        margin-top: 5vh;
+    }
+
+    #Vantagens{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        height: 129.5vh;
+    }
+
+    #Vantagens div{
+        height: 41.5vh;
+        margin-top: 0;
+    }
+
+    #Vantagens h3{
+        max-width: 95%;
+        font-size: 4.5vw;
+        margin-bottom: -1vh;
+    }
+    
+    #Vantagens button{
+        height: 10vw;
+        width: 30vw;
+        font-size: 3vw;
+        margin-top: 5vh;
+    }
+    
+    #Vantagens ul{
+        height: 85.5vh;
+        width: 88vw;
+    }
+    
+    #Vantagens li{
+        font-size: 4.5vw;
+        max-width: 100%;
+        margin-left: -10vw;
+    }
+    
+    #Econômico{
+        max-height: 30vw;
+        max-width: 30vw;
+    }
+    
+    #fácilComunicação{
+        max-height: 30vw;
+        max-width: 30vw;
+    }
+    
+    #apertoDeMãos{
+        max-height: 30vw;
+        max-width: 30vw;
+        margin-bottom: -3vh;
+        margin-top: -3vh;
+    }
+
+    #nossosPlanos{
+        height: 88.5vh;
+    }
+    
+    #Tabela1{
+        height: 44.25vh;
+    }
+    
+    .títuloSection{
+        font-size: 6vw;
+    }
+    
+    .títuloTabela{
+        font-size: 5vw;
+        margin-top: -5vh;
+    }
+    
+    #Tabela1 img{
+        width: 50vw;
+        margin-bottom: 0;
+        margin-top: -6vh;
+    }
+    
+    .Modelos{
+        margin-top: -10vh;
+        font-size: 4vw;
+    }
+    
+    #Tabela2{
+        height: 44.25vh;
+    }
+    
+    #Tabela2 div{
+        font-size: 4.5vw;
+    }
+    
+    #Tabela2 ul{
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    #Formulário{
+        height: 88.5vh;
+    }
+    
+    #Formulário div{
+        width: 100%;
+        height: 40%;
+    }
+    
+    #Formulário h1{
+        font-size: 6vw;
+    }
+    
+    #Formulário h4{
+        font-size: 5vw;
+    }
+    
+    form{
+        width: 95%;
+        height: 40%;
+    }
+    
+    label{
+        font-size: 4vw;
+    }
+    
+    input{
+        height: 2vh;
+    }
+    
+    #enviar{
+        height: 5vh;
+        width: 20vw;
+        font-size: 4vw;
+    }
+
+    footer{
+        width: 100%;
+        position: absolute;
+        bottom: 100;
+        left: 0;
+        right: 0;
+        height: 12vh;
+        font-size: 3vw;
+    }
+    
+    #iconeFacebook{
+        width: 8vw;
+        height: 8vw;
+    }
+    
+    #iconeInstagram{
+        width: 13vw;
+        height: 13vw;
+    }
+
+    footer #WhatsApp{
+        grid-column: 1 / span 2;
+    }
+    
+    footer #Telefone{
+        grid-column: 1 / span 2;
+    }
+    
+    footer #Endereço{
+        grid-column: 1 / span 3;
+    }
+}
+    
+@media screen and (min-device-width : 481px) and (max-device-width : 800px){
+    /* tablets */
+    header{
+        flex-direction: row;
+        max-height: 100vh;
+        height: 11vh;
+        width: 100%;
+        margin: auto;
+        justify-items: center;
+        align-items: start;
+    }
+
+    header article{
+        width: 50vw;
+        margin: auto;
+        align-items: center;
+        justify-items: center;
+    }
+
+    header img{
+        margin: auto;
+        height: 1%;
+    }
+
+    header ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr 1fr;
+        width: 55%;
+        height: 80%;
+        align-items: center;
+    }
+
+    header li{
+        font-size: 3.5vw;
+        text-align: justify;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: 0;
+        margin-right: 7vw;     
+    }
+
+    #Contato{
+        font-size: 3.5vw;
+    }
+
+    #Início{
+        display: block;
+        margin-top: 11vh;
+        height: 44.5vh;
+    }
+
+    #Início img{
+        display: none;
+    }
+
+    #Início h1{
+        max-width: 95%;
+        font-size: 5vw;
+    }
+    
+    #Início ul{
+        font-size: 4vw;
+    }
+
+    #Início button{
+        height: 8vw;
+        width: 25vw;
+        font-size: 2.5vw;
+        margin-top: 5vh;
+    }
+
+    #Vantagens{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        height: 134vh;
+    }
+
+    #Vantagens div{
+        height: 44.5vh;
+        margin-top: 0;
+    }
+
+    #Vantagens h3{
+        max-width: 95%;
+        font-size: 3.5vw;
+        margin-bottom: -1vh;
+    }
+    
+    #Vantagens button{
+        height: 8vw;
+        width: 25vw;
+        font-size: 2.5vw;
+        margin-top: 5vh;
+    }
+    
+    #Vantagens ul{
+        height: 87vh;
+        width: 93vw;
+    }
+    
+    #Vantagens li{
+        font-size: 3.5vw;
+        max-width: 100%;
+        margin-left: -6vw;
+    }
+    
+    #Econômico{
+        max-height: 25vw;
+        max-width: 25vw;
+    }
+    
+    #fácilComunicação{
+        max-height: 25vw;
+        max-width: 25vw;
+    }
+    
+    #apertoDeMãos{
+        max-height: 25vw;
+        max-width: 25vw;
+        margin-bottom: -3vh;
+        margin-top: -3vh;
+    }
+
+    #nossosPlanos{
+        height: 89.5vh;
+    }
+    
+    #Tabela1{
+        height: 44.25vh;
+    }
+    
+    .títuloSection{
+        font-size: 6vw;
+    }
+    
+    .títuloTabela{
+        font-size: 5vw;
+    }
+    
+    #Tabela1 img{
+        width: 50vw;
+        margin-bottom: 0;
+        margin-top: -6vh;
+    }
+    
+    .Modelos{
+        margin-top: -10vh;
+        font-size: 4vw;
+    }
+    
+    #Tabela2{
+        height: 44.25vh;
+    }
+    
+    #Tabela2 div{
+        font-size: 3.9vw;
+    }
+    
+    #Tabela2 ul{
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    #Formulário{
+        height: 89.5vh;
+    }
+    
+    #Formulário div{
+        width: 100%;
+        height: 40%;
+    }
+    
+    #Formulário h1{
+        font-size: 5.5vw;
+    }
+    
+    #Formulário h4{
+        font-size: 4vw;
+    }
+    
+    form{
+        width: 95%;
+        height: 40%;
+    }
+    
+    label{
+        font-size: 4vw;
+    }
+    
+    input{
+        height: 2vh;
+    }
+    
+    #enviar{
+        height: 5vh;
+        width: 20vw;
+        font-size: 4vw;
+    }
+
+    footer{
+        width: 100%;
+        position: absolute;
+        bottom: 100;
+        left: 0;
+        right: 0;
+        height: 11vh;
+        font-size: 2.5vw;
+    }
+    
+    #iconeFacebook{
+        width: 8vw;
+        height: 8vw;
+    }
+    
+    #iconeInstagram{
+        width: 13vw;
+        height: 13vw;
+    }
+
+    footer #WhatsApp{
+        grid-column: 1 / span 2;
+    }
+    
+    footer #Telefone{
+        grid-column: 1 / span 2;
+    }
+    
+    footer #Endereço{
+        grid-column: 1 / span 3;
+    }
+}
