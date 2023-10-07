@@ -1,0 +1,383 @@
+body{
+    color: black;
+    font-family: 'Share Tech', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-height: 12vh;
+}
+
+header img{
+    max-width: 200px;
+    position: relative;
+    left: 10vw;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header li{
+    display: inline;
+    margin-left: 20px;
+    color: #fc4c4c;
+    font-weight: bold;
+    position: relative;
+    right: 10vw;
+    font-size: 25px;
+}
+
+#Contato{
+    border: 3px solid black;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: #fc4c4c;
+    color: white;
+    font-size: 25px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #fc4c4c;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+}
+
+#Início{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fc4c4c;
+    margin-top: 12vh;
+    height: 88vh;
+}
+
+#Início div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Início h1{
+    max-width: 800px;
+    text-align: center;
+    font-size: 3vw;
+}
+
+#Início ul{
+    color: black;
+    font-size: 2vw;
+}
+
+#Início img{
+    height: 100%;
+    width: 50vw;
+}
+
+#Início button{
+    background-color: #747474;
+    border-radius: 100px;
+    text-align: center;
+    height: 8vh;
+    width: 10vw;
+    font-size: 1vw;
+    margin-top: 5vh;
+}
+
+#Início a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+#Vantagens{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-color: #f3d8d8;
+    height: 89vh;
+    width: 100%;
+}
+
+#Vantagens div{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+#Vantagens h3{
+    display: inline;
+    text-align: center;
+    max-width: 35vw;
+    font-size: 1.5vw;
+}
+
+#Vantagens button{
+    background-color: #747474;
+    border-radius: 100px;
+    height: 8vh;
+    width: 10vw;
+    font-size: 1vw;
+    margin-top: 4vh;
+}
+
+#Vantagens a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+#Vantagens ul{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    list-style-type: none;
+    height: 93%;
+    width: 90%;
+}
+
+#Vantagens li{
+    font-size: 1vw;
+    max-width: 25vw;
+}
+
+#Econômico{
+    max-height: 6vw;
+    max-width: 6vw;
+    padding: 0;
+}
+
+#fácilComunicação{
+    max-height: 6vw;
+    max-width: 6vw;
+    padding: 0;
+}
+
+#apertoDeMãos{
+    max-height: 6vw;
+    max-width: 6vw;
+    padding: 0;
+}
+
+#nossosPlanos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 178vh;
+}
+
+#Tabela1{
+    display: grid;
+    grid-row: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 50%;
+}
+
+.títuloSection{
+    color:white;
+    font-size: 3vw;
+    text-decoration: underline;
+    grid-column: 1/span 2;
+}
+
+.títuloTabela{
+    color: white;
+    font-size: 3vw;
+}
+
+#Tabela1 img{
+    width: 35vw;
+    margin-bottom: -10vh;
+    margin-top: -10vh;
+}
+
+.Modelos{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#Tabela2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 50%;
+    width: 100%;
+}
+
+#Tabela2 div{
+    display: flex;
+    text-align: justify;
+    height: 100%;
+    margin: auto;
+    font-size: 3vw;
+}
+
+#Tabela2 ul{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+#Formulário{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    color: black;
+    margin: auto;
+    background-color: #f3d8d8;
+    height: 89vh;
+    width: 100%;
+}
+
+#Formulário div{
+    width: 100%;
+    height: 40%;
+}
+
+#Formulário h1{
+    font-size: 3vw;
+    width: 90%;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+#Formulário h4{
+    font-size: 2vw;
+    width: 85%;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 95%;
+    height: 40%;
+    background-color: #fc4c4c;
+    margin: auto;
+    border: 10px solid #fc4c4c;
+}
+
+label{
+    text-align: left;
+    margin: auto;
+    font-size: 2vw;
+}
+
+input{
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    height: 3vh;
+    width: 90%;
+}
+
+#enviar{
+    color: white;
+    background-color: #747474;
+    border-radius: 100px;
+    height: 6vh;
+    width: 8vw;
+    font-size: 1.5vw;
+    margin: auto;
+    grid-column: 1/span 2;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 100;
+    left: 0;
+    right: 0;
+}
+
+#iconeFacebook{
+    width: 2vw;
+    height: 2vw;
+}
+
+#iconeInstagram{
+    width: 3.2vw;
+    height: 3.2vw;
+}
+
+footer #redesSociais{
+    grid-column: 3 / 4;
+}
+
+footer #Facebook{
+    grid-column: 3 / 4;
+}
+
+footer #Instagram{
+    grid-column: 3 / 4;
+}
+
+footer #WhatsApp{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+footer #Telefone{
+    display: flex;
+    flex-direction: row;
+    justify-items: start;
+}
+
+footer #Endereço{
+    display: flex;
+    flex-direction: row;
+    justify-items: start;
+}
