@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-    <!--script src="./script.js" defer></script-->
+    <script src="./index.js" defer></script>
     <link rel="stylesheet" href="styles.css">
     <title>Landing Page - 4Cars</title>
     <style>
@@ -164,29 +164,29 @@
                 <label for="nome">
                     Nome completo:
                 </label>
-                <input type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome" value="">
 
                 <label for="email">
                     E-mail:
                 </label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" value="">
 
                 <label for="CPF">
                     CPF:
                 </label>
-                <input type="number" name="CPF" id="CPF">
+                <input type="number" name="CPF" id="CPF" value="">
 
                 <label for="CEP">
                     CEP:
                 </label>
-                <input type="number" name="CEP" id="CEP">
+                <input type="number" name="CEP" id="CEP" value="">
 
                 <label for="telefone">
                     Telefone:
                 </label>
-                <input type="tel" name="telefone" id="telefone">
+                <input type="tel" name="telefone" id="telefone" value="">
 
-                <button type="submit" id="enviar">
+                <button type="button" id="enviar" onclick="verificaFormulário()" onmouseover="mudarCursor()">
                     Enviar
                 </button>
             </form>
