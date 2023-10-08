@@ -387,7 +387,7 @@ footer #Endereço{
     header{
         flex-direction: row;
         max-height: 100vh;
-        height: 12vh;
+        height: 15vh;
         width: 100%;
         margin: auto;
         justify-items: center;
@@ -493,18 +493,18 @@ footer #Endereço{
     }
     
     #Econômico{
-        max-height: 30vw;
-        max-width: 30vw;
+        max-height: 25vw;
+        max-width: 25vw;
     }
     
     #fácilComunicação{
-        max-height: 30vw;
-        max-width: 30vw;
+        max-height: 25vw;
+        max-width: 25vw;
     }
     
     #apertoDeMãos{
-        max-height: 30vw;
-        max-width: 30vw;
+        max-height: 25vw;
+        max-width: 25vw;
         margin-bottom: -3vh;
         margin-top: -3vh;
     }
@@ -542,7 +542,7 @@ footer #Endereço{
     }
     
     #Tabela2 div{
-        font-size: 4.5vw;
+        font-size: 4vw;
     }
     
     #Tabela2 ul{
